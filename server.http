@@ -1,0 +1,7 @@
+POST http://localhost:5000/csvToJson
+Content-Type: application/json
+
+{
+    "url": "https://support.staffbase.com/hc/en-us/article_attachments/360009197011/username-password-recovery-code.csv",
+    "selected_fields": ["Username", "Department", "Location"]
+}
